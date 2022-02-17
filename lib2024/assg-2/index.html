@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang= "en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 2</title>
+	<!--meta keywords for SEO-->
+	<meta name="keywords" content="Advanced HTML, Table, Special Tags">
+</head>
+<body>
+	<!--start header-->
+	<header id="header" class="header">
+		<h1>Assignment 2</h1>
+	</header>
+	<!--end header-->
+	<!--start main-->
+	<main id="main" class="main">
+		<section id="table-section" class="main-section">
+			<h2>Employee List</h2> <!--sets the language to Canadian English-->
+			<!--This is a Table-->
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>John</td>
+						<td>john@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>sam</td>
+						<td>sam@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Bob</td>
+						<td>bob@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Jack</td>
+						<td>jack@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>rob</td>
+						<td>Rob@fakemail.com</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<!--colspan changes width of columns-->	
+						<td colspan="3">
+							All of the above are Division Heads
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+		<!--end table section-->
+		<!--This is the animals section-->
+		<section id="animals-section" class="main-section">
+			<h2>Animals</h2>
+			<div>
+				<!--Image-->
+				<figure>
+					<img src="img/elephant.jpg" alt="elephant in figure" width="300" height="200"> <br>
+					<figcaption>This is an elephant</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<img src="img/lion.jpg" alt="lion in figure" width="300" height="200">   
+					<figcaption>This is a lion.</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<img src="img/snake.jpg" alt="snake in figure" width="300" height="200"> <br>
+					<figcaption>This is a snake.</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<img src="img/whale.jpg" alt="whale in figure" width="300" height="200"><br>
+					<figcaption>This is a Whale.</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<img src="img/hawk.jpg" alt="hawk in figure" width="300" height="200"> <figcaption>This is a Hawk.</figcaption>
+				</figure>
+			</div>
+		</section>
+		<!--end animals section--> 
+		<!--This is the HTML entities section-->
+		<section id="entities-section" class="main-section">
+			<h2>HTML Entities</h2>
+			<article>
+				<p>Non Breaking Space: &nbsp;</p>
+				<p>ampersand: &amp;</p>
+				<p>Pound: &pound;</p>
+				<p>Copyright : &copy;</p>
+			</article>
+		</section>
+		<!--end entities section-->
+		<!--This is the Special Tags section-->
+		<section id= "special-tags" class="main-section">
+			<h2>Special Tags:</h2>
+			<article id = "st-dl" class="special-tags">
+				<dl>
+					<dt>Coffee</dt>
+					<dd>- black hot drink</dd>
+					<dt>Milk</dt>
+					<dd>- white cold drink</dd>
+				</dl>
+			</article>
+				<p><abbr  title="HyperText Markup Language">HTML</abbr ></p>
+				<p><abbr  title="Cascading Style Sheets">CSS</abbr ></p>
+			<article>
+				<details>
+					<summary>What is a mobile Phone?</summary>
+					<p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a
+					portable telephone that can make and receive calls over a radio frequency link while the user is moving within a
+					telephone service area.</p>
+				</details>
+			</article>
+		</section>
+		<!--end special tags section-->
+	</main>
+	<!--end of main content-->
+	<!--start footer-->
+	<footer id="footer" class="footer">
+		<h2>Hidden comment:</h2>
+		<!---Have a nice day-->
+	</footer>
+	<!--end footer-->
+</body>
+</html>
