@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Forms</title>
+	<!--meta keywords for SEO-->
+	<meta name="keywords" content="HTML forms">
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<!--This is the main section-->
+		<section id="html-forms" class="main-section">
+			<!--start form--> 
+			<form action="soepage.php" method="get">
+				<div id="fn-container" class="form-elm"> 
+					<label for="FirstName">First name </label>
+					<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here" required>
+				</div>
+				<div id="ln-container" class="form-elm">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name here" required>
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" value="example@g.com" required>
+				</div>
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<div id="intro-container" class="form-elm">
+					<label for="Introductorytext">Introductory Text</label>
+					<!--This is a textarea-->
+					<textarea name="introductory text" id="Introductorytext" placeholder="Enter introductory text here">
+					</textarea>
+					<!--End textarea-->
+				</div>
+				<div id="date-container" class="form-elm"> 
+					<label for="DateofBirth">Date of Birth </label>
+					<input type="text" name="DateofBirth" id="DateofBirth" placeholder="day/month/year" required>
+				</div>
+				<div id="mobile-container" class="form-elm"> 
+					<label for="MobileNumber">Mobile Number </label>
+					<input type="text" name="MobileNumber" id="MobileNumber" placeholder="Mobile number goes here" required>
+				</div>
+				<div id="gender-container" class="form-elm">
+					<label for="gender">Gender:</label>
+					<select name="gender" id="gender">
+						<option value="female">Female</option>
+						<option value="male">Male</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				<div id="addrress-container" class="form-elm"> 
+					<label for="address">Address</label>
+					<input type="text" name="address" id="address" placeholder="Address goes here">
+				</div>
+				<div id="city-container" class="form-elm"> 
+					<label for="City">City</label>
+					<input type="text" name="City" id="City" placeholder="City goes here">
+				</div>
+				<div id="province-container" class="form-elm">
+					<label for="province">Province:</label>
+					<select name="province" id="province">
+						<option value="Alberta">Alberta</option>
+						<option value="British Columbia">British Columbia</option>
+						<option value="Manitoba">Manitoba</option>
+						<option value="New Brunswick">New Brunswick</option>
+						<option value="Newfoundland">Newfoundland</option>
+					</select>
+				</div>
+				<div id="country-container" class="form-elm">
+					<label for="country">Country</label>
+					<select name="country" id="country">
+						<option value="Canada">Canada</option>
+						<option value="United States">United States</option>
+						<option value="United Kingdom">United Kingdom</option>
+						<option value="Mexico">Mexico</option>
+						<option value="India">India</option>
+					</select>
+				</div>
+				<div id="post-container" class="form-elm"> 
+					<label for="Postalcode">Postal Code </label>
+					<input type="text" name="Postalcode" id="Postalcode" placeholder="Postal code goes here">
+				</div>
+				<div id="hobbies-container" class="form-elm">
+					<h3>Hobbies and Interests:</h3>
+					<label for="baking">Baking</label>
+					<input type="checkbox" name="hobbies" id="baking" value="baking"> <br>
+					<label for="running">Running</label>
+					<input type="checkbox" name="hobbies" id="running" value="running"> <br>
+					<label for="reading">Reading</label>
+					<input type="checkbox" name="hobbies" id="reading" value="reading"> <br>
+				</div>
+				<div id="radio-container" class="form-elm">
+					<p>Gender</p>
+					<label for="male">
+						<input type="radio" name="gender" id="male" value="male">Male
+					</label>
+					<label for="female">
+						<input type="radio" name="gender" id="female" value="female">Female
+					</label>
+					<label for="other">
+						<input type="radio" name="gender" id="other" value="other">Other
+					</label>
+				</div>
+				<div id="url-container" class="form-elm">
+					<label for="ur">Website URL</label>
+					<input type="url" name="ur" id="ur"><br>
+				</div>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>		
+			</form>
+			<!--end form-->
+		</section>
+		<!--end main section-->
+	</div>
+</body>
+</html>
