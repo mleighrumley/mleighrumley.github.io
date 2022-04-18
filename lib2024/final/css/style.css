@@ -93,7 +93,8 @@ body {background-image: url("../img/brick_wall.png");
 	max-width: 960px;
 }
 
-font-family: 'Oswald', sans-serif;
+font-family:'Oswald', sans-serif;
+}
 
 
 header {
@@ -183,10 +184,10 @@ h2 {
 	font-family: Oswald;
 	color: #008080;
 }
-/*h3, {
+h3 {
 	font-family: Oswald;
 	color: #008080;
-	text-align: center;*/
+	text-align: center;
 }
 
 .schedule-section {
@@ -219,18 +220,19 @@ h3 {
 	color: #008080;
 }
 
-}
 /*SUBMIT BUTTON COLOR TRANSITION*/
 
 button:hover {
-	background: #000000;
-} 
+	background: #008080;
+}
 
-button-transition {
+.button {
 	transition-property: color;
 	transition-duration: 1s;
 	transition-timing-function: linear;
 }
+
+
 
 
 /*PROFILE CARD*/
@@ -301,7 +303,6 @@ footer {
 }
 
 .footer-main-nav li a{
-	dplay: block;
 	box-sizing: border-box;
 	color: white;
 	text-decoration: none;
@@ -371,18 +372,6 @@ footer {
 	padding: 5px;	
 
 }	
-
-
-
-
-
-/*.footer-container section col-footer {
-	box-sizing: border-box;
-	width: 25%;
-	padding: 0;
-	display: inline-block;*/
-
-}
 
 @media (max-width: 600px){
 	#main-section{
