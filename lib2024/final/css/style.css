@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS clearfix*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* 
+Color Palette
+Primary Text: #000000;
+Other text:  #008080;
+Footer text:  #ffffff;
+Teal: #008080;
+Dark Grey:  #a9a9a9;
+Facebook: #1877f2;
+YouTube: #CD201F;
+Twitter: #1DA1F2;
+*/
+
+/*MOBILE FIRST*/
+.main, .footer, img {
+	width: 100%;
+} 
+
+.mobile-nav-container {
+	display: none;
+}
+
+.mobile-nav {
+	width: 100%;
+	clear: both;
+}
+
+/*BODY FONT*/
+/*font-family: 'Oswald', sans-serif;*/
+
+/*Logo Font*/
+/*Amerika regular*/
+
+
+/*BACKGROUND STYLE*/
+body {background-image: url("../img/brick_wall.png");
+	max-width: 960px;
+}
+
+font-family: 'Oswald', sans-serif;
+
+
+header {
+	background-color: #ffffff;
+}
+
+h1 {
+	margin-top: auto;
+}
+
+ h2, h3 {
+ 	font-family: "Oswald", sans-serif;
+ 	font-weight: bold;
+ }
+
+ h4 {
+ 	font-family: "Oswald", sans-serif;
+ }
+
+ .logo {
+	float: left;
+	width:100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #ffffff;
+	font-family: 'amerikaregular', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.desktop-nav {
+	float: right;
+	width: 100%;
+	display: none;
+	float: left;
+	display: block;
+	background: #72a9ae;
+	height: 35px;
+
+}
+
+.desktop-nav ul {
+	width:100%;
+}
+
+.desktop-nav li {
+	box-sizing: border-box;
+	width: 12%; 
+	float: left;
+	background: #72a9ae;
+	height: 10px;
+
+}
+
+.main-nav a {
+	display: block;
+	box-sizing: border-box;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#about {
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 5px;
+	margin-top: 5px;
+	width: 60%;
+	margin-right: 1px;
+	float: left;
+	
+}
+
+#image {
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 15px;
+	float: right;
+	width: 34%;
+	
+}
+
+h2 {
+	clear: both;
+	font-family: Oswald;
+	color: #008080;
+}
+/*h3, {
+	font-family: Oswald;
+	color: #008080;
+	text-align: center;*/
+}
+
+.schedule-section {
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 5px;
+}
+
+#profile-form {
+	box-sizing: border-box;
+	padding: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	width: 40%;
+	
+}
+.profile-section {
+float: right;
+
+}
+
+.form-elm {
+	padding: 10px;
+	text-align: left;
+}
+
+h3 {
+	text-align: left;
+	color: #008080;
+}
+
+}
+/*SUBMIT BUTTON COLOR TRANSITION*/
+
+button:hover {
+	background: #000000;
+} 
+
+button-transition {
+	transition-property: color;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+
+
+/*PROFILE CARD*/
+
+.profile-card {
+	box-sizing: border-box;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	height: 300px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 250px;
+  	background-color: #ffffff;
+
+}
+
+.col-footer {
+	clear: both;
+	color: #ffffff;
+	text-align: center;
+}
+.main-nav li a {
+	color: #000000;
+	font-family: "Oswald", sans-serif;
+}
+
+button {
+	margin-top: 5px;
+	float: right;
+}
+
+form {
+	width: 300px;
+	padding: 10px;
+}
+
+/*FOOTER STYLING*/
+
+footer {
+	background-color: #a9a9a9;
+	max-height: 300px;
+	clear: both;
+	width: 100%;
+}
+
+.footer-container section {
+	box-sizing: border-box;
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+	align-content: center;
+	
+}
+
+.footer-main-nav li a{
+	dplay: block;
+	box-sizing: border-box;
+	color: white;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+	margin: 10px;
+
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav li {
+  display: inline-block;
+
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.footer-nav li a {
+  display: inline-block;
+  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+
+}
+
+.footer-nav li i{
+	font-size: 24px;
+	color: white;
+	margin-top: 8px;
+}
+
+#Facebook a {
+	background-color: #1877F2;
+}
+
+#Facebook i {
+	background-color: #1877F2;
+}
+
+#YouTube a {
+	background-color: #CD201F;
+}
+
+#YouTube i {
+	background-color: #CD201F;
+}
+
+#Twitter a {
+	background-color: #1DA1F2;
+}
+
+#Twitter i {
+	background-color: #1DA1F2;
+}
+
+#address {
+	position: absolute;
+	box-sizing: border-box
+	padding: 5px;	
+
+}	
+
+
+
+
+
+/*.footer-container section col-footer {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 0;
+	display: inline-block;*/
+
+}
+
+@media (max-width: 600px){
+	#main-section{
+		width: 100%;
+		float: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
