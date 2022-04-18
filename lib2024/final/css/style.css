@@ -264,12 +264,22 @@ button-transition {
 
 button {
 	margin-top: 5px;
+	margin-right: 10px;
 	float: right;
+
 }
 
 form {
 	width: 300px;
 	padding: 10px;
+}
+
+input {
+	float: right;
+}
+
+select {
+	float: right;
 }
 
 /*FOOTER STYLING*/
