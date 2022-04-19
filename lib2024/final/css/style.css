@@ -91,11 +91,9 @@ Twitter: #1DA1F2;
 /*BACKGROUND STYLE*/
 body {background-image: url("../img/brick_wall.png");
 	max-width: 960px;
-}
+	font-family:'Oswald',sans-serif;
 
-font-family:'Oswald', sans-serif;
 }
-
 
 header {
 	background-color: #ffffff;
@@ -365,7 +363,7 @@ footer {
 
 #address {
 	position: absolute;
-	box-sizing: border-box
+	box-sizing: border-box;
 	padding: 5px;	
 
 }	
@@ -374,9 +372,11 @@ footer {
 	#main-section{
 		width: 100%;
 		float: none;
-}
+	}
 
-@media only screen and (min-width: 768px) {
+}		
 
-}
+
+
+
 
